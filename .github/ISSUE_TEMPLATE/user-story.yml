@@ -1,0 +1,30 @@
+name: User story
+description: Functionaliteit vanuit het standpunt van de gebruiker
+type: User Story
+body:
+  - type: input
+    id: als
+    attributes:
+      label: Als…
+      placeholder: "ouder"
+    validations:
+      required: true
+  - type: input
+    id: wil
+    attributes:
+      label: …wil ik…
+      placeholder: "mijn kind online kunnen inschrijven"
+    validations:
+      required: true
+  - type: input
+    id: zodat
+    attributes:
+      label: …zodat…
+      placeholder: "ik geen papieren formulier moet binnenbrengen"
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Acceptatiecriteria
+      value: |
+        - [ ] 
+        - [ ]
