@@ -1,0 +1,19 @@
+name: Feature request
+description: Stel een nieuwe functionaliteit voor
+type: Feature
+body:
+  - type: textarea
+    id: probleem
+    attributes:
+      label: Welk probleem lost dit op?
+    validations:
+      required: true
+  - type: textarea
+    id: voorstel
+    attributes:
+      label: Voorgestelde oplossing
+  - type: dropdown
+    id: belang
+    attributes:
+      label: Hoe belangrijk is dit?
+      options: [Nice to have, Belangrijk, Blokkerend]
